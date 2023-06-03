@@ -35,7 +35,6 @@ class Window extends JFrame {
         }
     }
     private void drawGrid(Graphics gr, double step, int x, int y, int x1, int y1) {
-        // PS: Мне нужно, чтобы сетка рисовалась от координат x, y до координат x1, y1
         double stepX = (x1 - x) / (step - 1);
         double stepY = (y1 - y) / (step - 1);
         for (int i = 0; i < step; i++) {
